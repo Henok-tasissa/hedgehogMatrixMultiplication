@@ -1,0 +1,3 @@
+/home/henok/Desktop/HedgeHogFiles/MatrixMultiplication/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/henok/Desktop/HedgeHogFiles/MatrixMultiplication/cmake-build-debug/CMakeFiles/MatrixMultiplication.dir
+/home/henok/Desktop/HedgeHogFiles/MatrixMultiplication/cmake-build-debug/CMakeFiles/edit_cache.dir

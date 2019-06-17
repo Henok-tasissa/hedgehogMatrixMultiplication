@@ -1,0 +1,20 @@
+/home/henok/clion-2019.1.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DHedgehog_INCLUDE_DIR=/home/henok/Desktop/hedgehog/hedgehog -G "CodeBlocks - Unix Makefiles" /home/henok/Desktop/HedgeHogFiles/MatrixMultiplication
+CMake Error at CMakeLists.txt:6 (find_package):
+  By not providing "FindHedgehog.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "Hedgehog",
+  but CMake did not find one.
+
+  Could not find a package configuration file provided by "Hedgehog" with any
+  of the following names:
+
+    HedgehogConfig.cmake
+    hedgehog-config.cmake
+
+  Add the installation prefix of "Hedgehog" to CMAKE_PREFIX_PATH or set
+  "Hedgehog_DIR" to a directory containing one of the above files.  If
+  "Hedgehog" provides a separate development package or SDK, be sure it has
+  been installed.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/henok/Desktop/HedgeHogFiles/MatrixMultiplication/cmake-build-debug/CMakeFiles/CMakeOutput.log".
