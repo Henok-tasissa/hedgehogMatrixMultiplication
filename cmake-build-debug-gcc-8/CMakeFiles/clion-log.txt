@@ -1,5 +1,5 @@
-/home/hnt9/clion-2019.1.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/bin/gcc-8 -DCMAKE_CXX_COMPILER=/usr/bin/g++-8 -DHedgehog_INCLUDE_DIR=/home/hnt9/Desktop/hedgehog/hedgehog -G "CodeBlocks - Unix Makefiles" /home/hnt9/Desktop/hedgehog-practice/MatrixMultiplication
--- Found Hedgehog include: /home/hnt9/Desktop/hedgehog/hedgehog, CXX_FLAGS:  -ansi;-pthread, Libs: stdc++fs;-lpthread
+/home/henok/clion-2019.1.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/bin/gcc-8 -DCMAKE_CXX_COMPILER=/usr/bin/g++-8 -DHedgehog_INCLUDE_DIR=/home/henok/Desktop/hedgehog/hedgehog -G "CodeBlocks - Unix Makefiles" /home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication
+-- Found Hedgehog include: /home/henok/Desktop/hedgehog/hedgehog, CXX_FLAGS:  -ansi;-pthread, Libs: stdc++fs;-lpthread
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/hnt9/Desktop/hedgehog-practice/MatrixMultiplication/cmake-build-debug-gcc-8
+-- Build files have been written to: /home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/cmake-build-debug-gcc-8

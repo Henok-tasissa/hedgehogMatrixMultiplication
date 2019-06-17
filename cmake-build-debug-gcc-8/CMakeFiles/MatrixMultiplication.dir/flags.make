@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++17
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/hnt9/Desktop/hedgehog/hedgehog 
+CXX_INCLUDES = -I/home/henok/Desktop/hedgehog/hedgehog 
 

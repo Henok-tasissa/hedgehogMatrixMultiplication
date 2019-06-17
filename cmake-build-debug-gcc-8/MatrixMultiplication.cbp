@@ -8,33 +8,33 @@
 		<Option virtualFolders="CMake Files\;CMake Files\cmake-modules\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/hnt9/Desktop/hedgehog-practice/MatrixMultiplication/cmake-build-debug-gcc-8"/>
+				<Option working_dir="/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/cmake-build-debug-gcc-8"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/hnt9/Desktop/hedgehog-practice/MatrixMultiplication/cmake-build-debug-gcc-8/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/hnt9/Desktop/hedgehog-practice/MatrixMultiplication/cmake-build-debug-gcc-8/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/hnt9/Desktop/hedgehog-practice/MatrixMultiplication/cmake-build-debug-gcc-8/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/hnt9/Desktop/hedgehog-practice/MatrixMultiplication/cmake-build-debug-gcc-8/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/cmake-build-debug-gcc-8/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/cmake-build-debug-gcc-8/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/cmake-build-debug-gcc-8/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/cmake-build-debug-gcc-8/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/hnt9/Desktop/hedgehog-practice/MatrixMultiplication/cmake-build-debug-gcc-8"/>
+				<Option working_dir="/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/cmake-build-debug-gcc-8"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/hnt9/Desktop/hedgehog-practice/MatrixMultiplication/cmake-build-debug-gcc-8/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/hnt9/Desktop/hedgehog-practice/MatrixMultiplication/cmake-build-debug-gcc-8/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/hnt9/Desktop/hedgehog-practice/MatrixMultiplication/cmake-build-debug-gcc-8/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/hnt9/Desktop/hedgehog-practice/MatrixMultiplication/cmake-build-debug-gcc-8/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/cmake-build-debug-gcc-8/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/cmake-build-debug-gcc-8/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/cmake-build-debug-gcc-8/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/cmake-build-debug-gcc-8/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="MatrixMultiplication">
-				<Option output="/home/hnt9/Desktop/hedgehog-practice/MatrixMultiplication/cmake-build-debug-gcc-8/MatrixMultiplication" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hnt9/Desktop/hedgehog-practice/MatrixMultiplication/cmake-build-debug-gcc-8"/>
+				<Option output="/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/cmake-build-debug-gcc-8/MatrixMultiplication" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/cmake-build-debug-gcc-8"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/hnt9/Desktop/hedgehog/hedgehog"/>
+					<Add directory="/home/henok/Desktop/hedgehog/hedgehog"/>
 					<Add directory="/usr/include/c++/8"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
 					<Add directory="/usr/include/c++/8/backward"/>
@@ -45,20 +45,20 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/hnt9/Desktop/hedgehog-practice/MatrixMultiplication/cmake-build-debug-gcc-8/Makefile&quot;  VERBOSE=1 MatrixMultiplication"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/hnt9/Desktop/hedgehog-practice/MatrixMultiplication/cmake-build-debug-gcc-8/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/hnt9/Desktop/hedgehog-practice/MatrixMultiplication/cmake-build-debug-gcc-8/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/hnt9/Desktop/hedgehog-practice/MatrixMultiplication/cmake-build-debug-gcc-8/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/cmake-build-debug-gcc-8/Makefile&quot;  VERBOSE=1 MatrixMultiplication"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/cmake-build-debug-gcc-8/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/cmake-build-debug-gcc-8/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/cmake-build-debug-gcc-8/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="MatrixMultiplication/fast">
-				<Option output="/home/hnt9/Desktop/hedgehog-practice/MatrixMultiplication/cmake-build-debug-gcc-8/MatrixMultiplication" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hnt9/Desktop/hedgehog-practice/MatrixMultiplication/cmake-build-debug-gcc-8"/>
+				<Option output="/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/cmake-build-debug-gcc-8/MatrixMultiplication" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/cmake-build-debug-gcc-8"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/hnt9/Desktop/hedgehog/hedgehog"/>
+					<Add directory="/home/henok/Desktop/hedgehog/hedgehog"/>
 					<Add directory="/usr/include/c++/8"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
 					<Add directory="/usr/include/c++/8/backward"/>
@@ -69,45 +69,60 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/hnt9/Desktop/hedgehog-practice/MatrixMultiplication/cmake-build-debug-gcc-8/Makefile&quot;  VERBOSE=1 MatrixMultiplication/fast"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/hnt9/Desktop/hedgehog-practice/MatrixMultiplication/cmake-build-debug-gcc-8/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/hnt9/Desktop/hedgehog-practice/MatrixMultiplication/cmake-build-debug-gcc-8/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/hnt9/Desktop/hedgehog-practice/MatrixMultiplication/cmake-build-debug-gcc-8/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/cmake-build-debug-gcc-8/Makefile&quot;  VERBOSE=1 MatrixMultiplication/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/cmake-build-debug-gcc-8/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/cmake-build-debug-gcc-8/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/cmake-build-debug-gcc-8/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/hnt9/Desktop/hedgehog-practice/MatrixMultiplication/cmake-build-debug-gcc-8"/>
+				<Option working_dir="/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/cmake-build-debug-gcc-8"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/hnt9/Desktop/hedgehog-practice/MatrixMultiplication/cmake-build-debug-gcc-8/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/hnt9/Desktop/hedgehog-practice/MatrixMultiplication/cmake-build-debug-gcc-8/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/hnt9/Desktop/hedgehog-practice/MatrixMultiplication/cmake-build-debug-gcc-8/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/hnt9/Desktop/hedgehog-practice/MatrixMultiplication/cmake-build-debug-gcc-8/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/cmake-build-debug-gcc-8/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/cmake-build-debug-gcc-8/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/cmake-build-debug-gcc-8/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/cmake-build-debug-gcc-8/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/hnt9/Desktop/hedgehog-practice/MatrixMultiplication/data/MatrixBlockData.h">
+		<Unit filename="/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/data/MatrixAdata.h">
 			<Option target="MatrixMultiplication"/>
 		</Unit>
-		<Unit filename="/home/hnt9/Desktop/hedgehog-practice/MatrixMultiplication/data/MatrixRequestData.h">
+		<Unit filename="/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/data/MatrixBdata.h">
 			<Option target="MatrixMultiplication"/>
 		</Unit>
-		<Unit filename="/home/hnt9/Desktop/hedgehog-practice/MatrixMultiplication/data/MatrixState.h">
+		<Unit filename="/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/data/MatrixBlockData.h">
 			<Option target="MatrixMultiplication"/>
 		</Unit>
-		<Unit filename="/home/hnt9/Desktop/hedgehog-practice/MatrixMultiplication/data/StateContainer.h">
+		<Unit filename="/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/data/MatrixBlockMulData.h">
 			<Option target="MatrixMultiplication"/>
 		</Unit>
-		<Unit filename="/home/hnt9/Desktop/hedgehog-practice/MatrixMultiplication/main.cpp">
+		<Unit filename="/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/data/MatrixRequestData.h">
 			<Option target="MatrixMultiplication"/>
 		</Unit>
-		<Unit filename="/home/hnt9/Desktop/hedgehog-practice/MatrixMultiplication/task/GenMatrixTask.h">
+		<Unit filename="/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/main.cpp">
 			<Option target="MatrixMultiplication"/>
 		</Unit>
-		<Unit filename="/home/hnt9/Desktop/hedgehog-practice/MatrixMultiplication/CMakeLists.txt">
+		<Unit filename="/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/state/MatrixState.h">
+			<Option target="MatrixMultiplication"/>
+		</Unit>
+		<Unit filename="/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/state/StateContainer.h">
+			<Option target="MatrixMultiplication"/>
+		</Unit>
+		<Unit filename="/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/task/GenMatrixAtask.h">
+			<Option target="MatrixMultiplication"/>
+		</Unit>
+		<Unit filename="/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/task/GenMatrixBtask.h">
+			<Option target="MatrixMultiplication"/>
+		</Unit>
+		<Unit filename="/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/task/GenMatrixTask.h">
+			<Option target="MatrixMultiplication"/>
+		</Unit>
+		<Unit filename="/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/hnt9/Desktop/hedgehog-practice/MatrixMultiplication/cmake-modules/FindHedgehog.cmake">
+		<Unit filename="/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/cmake-modules/FindHedgehog.cmake">
 			<Option virtualFolder="CMake Files\cmake-modules\"/>
 		</Unit>
 	</Project>

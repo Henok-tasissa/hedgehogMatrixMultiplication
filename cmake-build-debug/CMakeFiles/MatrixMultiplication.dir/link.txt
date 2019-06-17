@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/MatrixMultiplication.dir/main.cpp.o  -o MatrixMultiplication 

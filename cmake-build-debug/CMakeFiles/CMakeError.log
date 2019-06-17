@@ -1,26 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/henok/Desktop/HedgeHogFiles/MatrixMultiplication/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_5a362/fast 
-make[1]: Entering directory '/home/henok/Desktop/HedgeHogFiles/MatrixMultiplication/cmake-build-debug/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_5a362.dir/build.make CMakeFiles/cmTC_5a362.dir/build
-make[2]: Entering directory '/home/henok/Desktop/HedgeHogFiles/MatrixMultiplication/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5a362.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_5a362.dir/CheckSymbolExists.c.o   -c /home/henok/Desktop/HedgeHogFiles/MatrixMultiplication/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_5a362
-/home/henok/clion-2019.1.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a362.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_5a362.dir/CheckSymbolExists.c.o  -o cmTC_5a362 
-CMakeFiles/cmTC_5a362.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command(s):/usr/bin/make cmTC_ce6b7/fast 
+/usr/bin/make -f CMakeFiles/cmTC_ce6b7.dir/build.make CMakeFiles/cmTC_ce6b7.dir/build
+make[1]: Entering directory '/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ce6b7.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ce6b7.dir/CheckSymbolExists.c.o   -c /home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_ce6b7
+/home/henok/clion-2019.1.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce6b7.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_ce6b7.dir/CheckSymbolExists.c.o  -o cmTC_ce6b7 
+CMakeFiles/cmTC_ce6b7.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_5a362.dir/build.make:86: recipe for target 'cmTC_5a362' failed
-make[2]: *** [cmTC_5a362] Error 1
-make[2]: Leaving directory '/home/henok/Desktop/HedgeHogFiles/MatrixMultiplication/cmake-build-debug/CMakeFiles/CMakeTmp'
-Makefile:121: recipe for target 'cmTC_5a362/fast' failed
-make[1]: *** [cmTC_5a362/fast] Error 2
-make[1]: Leaving directory '/home/henok/Desktop/HedgeHogFiles/MatrixMultiplication/cmake-build-debug/CMakeFiles/CMakeTmp'
+CMakeFiles/cmTC_ce6b7.dir/build.make:86: recipe for target 'cmTC_ce6b7' failed
+make[1]: *** [cmTC_ce6b7] Error 1
+make[1]: Leaving directory '/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_ce6b7/fast' failed
+make: *** [cmTC_ce6b7/fast] Error 2
 
-File /home/henok/Desktop/HedgeHogFiles/MatrixMultiplication/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -36,24 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/henok/Desktop/HedgeHogFiles/MatrixMultiplication/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_cff46/fast 
-make[1]: Entering directory '/home/henok/Desktop/HedgeHogFiles/MatrixMultiplication/cmake-build-debug/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_cff46.dir/build.make CMakeFiles/cmTC_cff46.dir/build
-make[2]: Entering directory '/home/henok/Desktop/HedgeHogFiles/MatrixMultiplication/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_cff46.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_cff46.dir/CheckFunctionExists.c.o   -c /home/henok/clion-2019.1.4/bin/cmake/linux/share/cmake-3.14/Modules/CheckFunctionExists.c
-Linking C executable cmTC_cff46
-/home/henok/clion-2019.1.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cff46.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_cff46.dir/CheckFunctionExists.c.o  -o cmTC_cff46 -lpthreads 
+Run Build Command(s):/usr/bin/make cmTC_4162a/fast 
+/usr/bin/make -f CMakeFiles/cmTC_4162a.dir/build.make CMakeFiles/cmTC_4162a.dir/build
+make[1]: Entering directory '/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4162a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_4162a.dir/CheckFunctionExists.c.o   -c /home/henok/clion-2019.1.4/bin/cmake/linux/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4162a
+/home/henok/clion-2019.1.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4162a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_4162a.dir/CheckFunctionExists.c.o  -o cmTC_4162a -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_cff46.dir/build.make:86: recipe for target 'cmTC_cff46' failed
-make[2]: *** [cmTC_cff46] Error 1
-make[2]: Leaving directory '/home/henok/Desktop/HedgeHogFiles/MatrixMultiplication/cmake-build-debug/CMakeFiles/CMakeTmp'
-Makefile:121: recipe for target 'cmTC_cff46/fast' failed
-make[1]: *** [cmTC_cff46/fast] Error 2
-make[1]: Leaving directory '/home/henok/Desktop/HedgeHogFiles/MatrixMultiplication/cmake-build-debug/CMakeFiles/CMakeTmp'
+CMakeFiles/cmTC_4162a.dir/build.make:86: recipe for target 'cmTC_4162a' failed
+make[1]: *** [cmTC_4162a] Error 1
+make[1]: Leaving directory '/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_4162a/fast' failed
+make: *** [cmTC_4162a/fast] Error 2
 
 

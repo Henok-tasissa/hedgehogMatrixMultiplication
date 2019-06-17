@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/hnt9/Desktop/hedgehog-practice/MatrixMultiplication/main.cpp" "/home/hnt9/Desktop/hedgehog-practice/MatrixMultiplication/cmake-build-debug-gcc-8/CMakeFiles/MatrixMultiplication.dir/main.cpp.o"
+  "/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/main.cpp" "/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/cmake-build-debug-gcc-8/CMakeFiles/MatrixMultiplication.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/hnt9/Desktop/hedgehog/hedgehog"
+  "/home/henok/Desktop/hedgehog/hedgehog"
   )
 
 # Targets to which this target links.

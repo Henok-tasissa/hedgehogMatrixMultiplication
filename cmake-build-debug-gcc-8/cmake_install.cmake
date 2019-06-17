@@ -1,4 +1,4 @@
-# Install script for directory: /home/hnt9/Desktop/hedgehog-practice/MatrixMultiplication
+# Install script for directory: /home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/hnt9/Desktop/hedgehog-practice/MatrixMultiplication/cmake-build-debug-gcc-8/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/cmake-build-debug-gcc-8/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

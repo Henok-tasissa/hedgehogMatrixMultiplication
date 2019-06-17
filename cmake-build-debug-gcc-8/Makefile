@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/hnt9/clion-2019.1.3/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/henok/clion-2019.1.4/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/hnt9/clion-2019.1.3/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/henok/clion-2019.1.4/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hnt9/Desktop/hedgehog-practice/MatrixMultiplication
+CMAKE_SOURCE_DIR = /home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hnt9/Desktop/hedgehog-practice/MatrixMultiplication/cmake-build-debug-gcc-8
+CMAKE_BINARY_DIR = /home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/cmake-build-debug-gcc-8
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/hnt9/Desktop/hedgehog-practice/MatrixMultiplication/cma
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/hnt9/clion-2019.1.3/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/henok/clion-2019.1.4/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/hnt9/clion-2019.1.3/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/henok/clion-2019.1.4/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hnt9/Desktop/hedgehog-practice/MatrixMultiplication/cmake-build-debug-gcc-8/CMakeFiles /home/hnt9/Desktop/hedgehog-practice/MatrixMultiplication/cmake-build-debug-gcc-8/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/cmake-build-debug-gcc-8/CMakeFiles /home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/cmake-build-debug-gcc-8/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hnt9/Desktop/hedgehog-practice/MatrixMultiplication/cmake-build-debug-gcc-8/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/cmake-build-debug-gcc-8/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
