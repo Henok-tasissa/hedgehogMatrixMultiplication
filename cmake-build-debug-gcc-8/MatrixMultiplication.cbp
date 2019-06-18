@@ -119,6 +119,9 @@
 		<Unit filename="/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/task/GenMatrixTask.h">
 			<Option target="MatrixMultiplication"/>
 		</Unit>
+		<Unit filename="/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/task/ProductTask.h">
+			<Option target="MatrixMultiplication"/>
+		</Unit>
 		<Unit filename="/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

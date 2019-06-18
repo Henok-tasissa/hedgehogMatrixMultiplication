@@ -6,32 +6,27 @@
 #define MATRIXMULTIPLICATION_MATRIXBLOCKMULDATA_H
 
 
-#include "MatrixBlockData.h"
+#include "./MatrixAdata.h"
+#include "./MatrixBdata.h"
 
-template <class Type>
 class MatrixBlockMulData{
 public:
 
-    MatrixBlockMulData(const std::shared_ptr<MatrixBlockData<Type>> &matrixA,
-                       const std::shared_ptr<MatrixBlockData<Type>> &matrixB,
-                       const std::shared_ptr<MatrixBlockData<Type>> &matrixC) :
-            matrixA(matrixA), matrixB(matrixB), matrixC(matrixC) {}
+    MatrixBlockMulData(const std::shared_ptr<MatrixAdata<int *>> &matrixA,
+                       const std::shared_ptr<MatrixBdata<int *>> &matrixB) :
+            matrixA(matrixA), matrixB(matrixB) {}
 
-    const std::shared_ptr<MatrixBlockData<Type>> &getMatrixA() const {
+    const std::shared_ptr<MatrixAdata<int *>> &getMatrixA() const {
         return matrixA;
     }
-    const std::shared_ptr<MatrixBlockData<Type>> &getMatrixB() const {
+    const std::shared_ptr<MatrixBdata<int *>> &getMatrixB() const {
         return matrixB;
     }
 
-    const std::shared_ptr<MatrixBlockData<Type>> &getMatrixC() const {
-        return matrixC;
-    }
 
 private:
-    std::shared_ptr<MatrixBlockData<Type>> matrixA;
-    std::shared_ptr<MatrixBlockData<Type>> matrixB;
-    std::shared_ptr<MatrixBlockData<Type>> matrixC;
+    std::shared_ptr<MatrixAdata<int *>> matrixA;
+    std::shared_ptr<MatrixBdata<int *>> matrixB;
 };
 
 

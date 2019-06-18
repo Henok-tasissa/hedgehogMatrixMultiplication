@@ -1,10 +1,12 @@
 #include <iostream>
 #include "hedgehog.h"
 #include "./data/MatrixRequestData.h"
-#include "./data/MatrixBlockData.h"
+#include "./data/MatrixAdata.h"
+#include "./data/MatrixBdata.h"
 #include "./task/GenMatrixAtask.h"
 #include "./task/GenMatrixBtask.h"
 #include "state/MatrixState.h"
+#include "task/ProductTask.h"
 
 int main() {
     size_t width = 1024;
@@ -15,46 +17,47 @@ int main() {
     std::shared_ptr<GenMatrixAtask> genMatrixAtask = std::make_shared<GenMatrixAtask>("GenMatrixAtask",numThreads,blockSize,width,height);
     std::shared_ptr<GenMatrixBtask> genMatrixBtask = std::make_shared<GenMatrixBtask>("GenMatrixBtask",numThreads,blockSize,width,height);
 
-    size_t numMatrixAblocksCols = genMatrixAtask->getNumBlocksCols();
-    size_t numMatrixAblocksRows = genMatrixAtask->getNumBlocksRows();
+    size_t numBlockCols = genMatrixAtask->getNumBlocksCols();
+    size_t numBlockRows = genMatrixAtask->getNumBlocksRows();
 
 
-    size_t numMatrixBblocksCols = genMatrixBtask->getNumBlocksCols();
-    size_t numMatrixBblocksRows = genMatrixBtask->getNumBlocksRows();
+    auto myGraph = std::make_shared<Graph<MatrixBlockData<int *>,MatrixRequestData>>();
 
-    auto myGraph = std::make_shared<Graph<MatrixBlockMulData<int *>,MatrixRequestData>>();
+    auto matrixState = std::make_shared<MatrixState<int *>>(numBlockCols, numBlockRows);
+    auto productTask = std::make_shared<ProductTask>("Product Task", numThreads);
 
-    std::shared_ptr<MatrixState> matrixState = std::make_shared<MatrixState>();
-    std::shared_ptr<DefaultStateManager<MatrixBlockMulData<int *>,MatrixAdata<int *>,MatrixBdata<int *>>> stateManager =
-            std::make_shared<DefaultStateManager<MatrixBlockMulData<int *>,MatrixAdata<int *>,MatrixBdata<int *>>>(matrixState);
-
+    std::shared_ptr<DefaultStateManager<MatrixBlockMulData,MatrixAdata<int *>,MatrixBdata<int *>>> stateManager =
+            std::make_shared<DefaultStateManager<MatrixBlockMulData,MatrixAdata<int *>,MatrixBdata<int *>>>(matrixState);
     myGraph->input(genMatrixAtask);
     myGraph->input(genMatrixBtask);
+
     myGraph->addEdge(genMatrixAtask,stateManager);
     myGraph->addEdge(genMatrixBtask,stateManager);
-    myGraph->output(stateManager);
+    myGraph->addEdge(stateManager,productTask);
+    myGraph->output(productTask);
     myGraph->executeGraph();
 
-    for(size_t row = 0; row<numMatrixAblocksRows;row++){
-        for(size_t col = 0; col<numMatrixAblocksCols;col++){
+    for(size_t row = 0; row<numBlockRows;row++){
+        for(size_t col = 0; col<numBlockCols;col++){
             std::shared_ptr<MatrixRequestData> matrixA = std::make_shared<MatrixRequestData>(row,col,'A');
             myGraph->pushData(matrixA);
         }
     }
-    for(size_t row = 0; row<numMatrixBblocksRows;row++){
-        for(size_t col = 0; col<numMatrixBblocksCols;col++){
+    for(size_t row = 0; row<numBlockRows;row++){
+        for(size_t col = 0; col<numBlockCols;col++){
             std::shared_ptr<MatrixRequestData> matrixB = std::make_shared<MatrixRequestData>(row,col,'B');
             myGraph->pushData(matrixB);
         }
     }
 
     myGraph->finishPushingData();
-    int count = 0;
-    while(std::shared_ptr<MatrixBlockMulData<int *>> graphOutput = myGraph->getBlockingResult()){
-        count+=1;
+    while(std::shared_ptr<MatrixBlockData<int *>> graphOutput = myGraph->getBlockingResult()){
+        for (size_t i = 0; i < graphOutput->getMatrixHeight()*graphOutput->getMatrixWidth(); ++i) {
+            std::cout<<graphOutput->getMatrixData()[i]<<", ";
+        }
     }
-    std::cout<<count<<std::endl;
     myGraph->waitForTermination();
 
+    myGraph->createDotFile("matrixProduct.dot",ColorScheme::WAIT,StructureOptions::ALL);
     return 0;
 }

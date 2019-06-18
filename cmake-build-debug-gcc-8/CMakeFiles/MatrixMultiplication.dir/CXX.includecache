@@ -22,12 +22,6 @@ hedgehog.h
 ./MatrixRequestData.h
 /home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/./data/./MatrixRequestData.h
 
-/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/./data/MatrixBlockData.h
-hedgehog.h
-/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/./data/hedgehog.h
-./MatrixRequestData.h
-/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/./data/./MatrixRequestData.h
-
 /home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/./data/MatrixRequestData.h
 hedgehog.h
 /home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/./data/hedgehog.h
@@ -48,6 +42,18 @@ hedgehog.h
 ../data/MatrixBdata.h
 /home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/./data/MatrixBdata.h
 
+/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/data/./MatrixAdata.h
+hedgehog.h
+/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/data/./hedgehog.h
+./MatrixRequestData.h
+/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/data/././MatrixRequestData.h
+
+/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/data/./MatrixBdata.h
+hedgehog.h
+/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/data/./hedgehog.h
+./MatrixRequestData.h
+/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/data/././MatrixRequestData.h
+
 /home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/data/MatrixBlockData.h
 hedgehog.h
 /home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/data/hedgehog.h
@@ -55,8 +61,10 @@ hedgehog.h
 /home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/data/./MatrixRequestData.h
 
 /home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/data/MatrixBlockMulData.h
-MatrixBlockData.h
-/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/data/MatrixBlockData.h
+./MatrixAdata.h
+/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/data/./MatrixAdata.h
+./MatrixBdata.h
+/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/data/./MatrixBdata.h
 
 /home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/main.cpp
 iostream
@@ -65,14 +73,18 @@ hedgehog.h
 /home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/hedgehog.h
 ./data/MatrixRequestData.h
 /home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/./data/MatrixRequestData.h
-./data/MatrixBlockData.h
-/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/./data/MatrixBlockData.h
+./data/MatrixAdata.h
+/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/./data/MatrixAdata.h
+./data/MatrixBdata.h
+/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/./data/MatrixBdata.h
 ./task/GenMatrixAtask.h
 /home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/./task/GenMatrixAtask.h
 ./task/GenMatrixBtask.h
 /home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/./task/GenMatrixBtask.h
 state/MatrixState.h
 /home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/state/MatrixState.h
+task/ProductTask.h
+/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/task/ProductTask.h
 
 /home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/state/./StateContainer.h
 hedgehog.h
@@ -97,6 +109,14 @@ StateContainer.h
 /home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/state/StateContainer.h
 hedgehog.h
 /home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/state/hedgehog.h
+
+/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/task/ProductTask.h
+hedgehog.h
+/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/task/hedgehog.h
+../data/MatrixBlockData.h
+/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/data/MatrixBlockData.h
+../data/MatrixBlockMulData.h
+/home/henok/Desktop/HedgeHogFiles/hedgehogMatrixMultiplication/data/MatrixBlockMulData.h
 
 /home/henok/Desktop/hedgehog/hedgehog/api/cuda/abstract_cuda_task.h
 
